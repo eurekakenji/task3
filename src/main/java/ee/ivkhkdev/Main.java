@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // 3
         Scanner sc2 = new Scanner(System.in);
         System.out.print("enter name: ");
         String name = sc2.nextLine();
@@ -16,7 +15,7 @@ public class Main {
         int bday = sc2.nextInt();
         System.out.print("enter birth year (ex '1984'): ");
         int byear = sc2.nextInt();
-        System.out.println(name + " " + lname + "born on" + bday + " " + bmonth + " " + byear + " ");
-        
+        System.out.println(name + " " + lname + " born on " + bday + " " + bmonth + " " + byear + " ");
+
     }
 }
